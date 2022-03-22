@@ -19,10 +19,13 @@ html {
   background: #fff;
   color: #666;
 }
+
+
 /*
  * Remove the margin in all browsers.
  */
 body {
+    
   margin: 0;
 }
 /* Links
