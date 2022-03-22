@@ -1945,6 +1945,7 @@ select.uk-form-width-xsmall {
   background-color: transparent;
   color: #333;
   border: 1px solid #e5e5e5;
+  border-radius: 20px;
 }
 /* Hover */
 .uk-button-default:hover {
@@ -2276,7 +2277,8 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-section-primary {
-  background: #1e87f0;
+  background: #747474;
+  border-radius: 20px;
 }
 /*
  * Secondary
@@ -2343,7 +2345,7 @@ select.uk-form-width-xsmall {
   max-width: 900px;
 }
 .uk-container-large {
-  max-width: 1400px;
+  max-width: 1200px;
 }
 .uk-container-xlarge {
   max-width: 1600px;
