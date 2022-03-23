@@ -5,8 +5,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="uikit-rtl.css" />
-        <script src="js/uikit.min.js"></script>
-        <script src="js/uikit-icons.min.js"></script>
+        
+       <!--<script src="js/uikit.min.js"></script> --> 
+       <!-- <script src="js/uikit-icons.min.js"></script> -->
     </head>
 
     <header>
@@ -22,16 +23,42 @@
                 <div class="uk-container uk-container-expand">
                     <h2 class="uk-heading-divider">SMALLER HEADING</h2>
                     <div class="uk-margin-small">
-                            <input class="uk-input" type="text" placeholder="testing">
+                            <input class="uk-input" type="text" placeholder="Find Your Flight">
                         </div>
-                        <select class="uk-select">
-                            <option>Testing</option>
-                            <option>Testing</option>
+                        <select id="genreBtn" class="uk-select">
+                            <option>Genre</option>
+                            <option>-----------</option>
+                            <!--MAYBE GO BACK AND make divider and 'genres' un clickable-->
+                            <option> Action</option>
+                            <option>Anime</option>
+                            <option>Black Stories</option>
+                            <option>British</option>
+                            <option>Classic & Cult</option>
+                            <option>Comedies</option>
+                            <option>Crime</option>
+                            <option>Docuseries</option>
+                            <option>Dramas</option>
+                            <option>Horror</option>
+                            <option>International</option>
+                            <option>K-Dramas</option>
+                            <option>Kids</option>
+                            <option>LGBTQ</option>
+                            <option>Mysteries</option>
+                            <option>Reality</option>
+                            <option>Romance</option>
+                            <option>Sci-Fi & Fantasy</option>
+                            <option>Science & Nature</option>
+                            <option>Spanish-Language</option>
+                            <option>Stand-up & Talk Shows</option>
+                            <option>Teen</option>
+                            <option>Thriller</option>
+                            <!--Make ordered list elements for drop down menu for genres-->
                         </select>
                         
                         <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
-                          <label><input class="uk-checkbox" type="checkbox"> A</label>
-                          <label><input class="uk-checkbox" type="checkbox"> B</label>
+                          <label><input class="uk-checkbox" type="checkbox"> Movie</label>
+                          <label><input class="uk-checkbox" type="checkbox"> TV Series</label>
+                          <!--Check box allows the option to check both!-->
                         </div>
                         <button class="uk-button uk-button-default uk-margin-small">Search</button>
                     </div>   
@@ -39,6 +66,7 @@
             </div>
         
         </div>
+        <script src="script.js"></script>
     </body>
     <footer>
         <div class="uk-background-secondary uk-padding-small uk-position-bottom uk-text-center">
