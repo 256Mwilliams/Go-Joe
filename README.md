@@ -1,10 +1,8 @@
-# Red_Eye
+# Go-Joe
 
-## Aviationstack API
-e24c534598f2825f58045c7c74198594
 
 ## Purpose
-A movie/show generator based on the duration of your flight.
+Find out what kind of coffee/Joe you are based on your responses to our quiz.
 
 ## Built With
 * HTML
@@ -15,6 +13,6 @@ A movie/show generator based on the duration of your flight.
 _________
 
 ## Contribution
-Made by the Red_Eye Team: Christian Lafferty, Henry Velasco, Michael Williams
+Made by the Go-Joe Team: Christian Lafferty, Henry Velasco, Michael Williams
 
-### ©️2022 Red_Eye
+### ©️2022 Go-Joe
