@@ -1,10 +1,14 @@
-  //fetch('https://api.sampleapis.com/coffee/hot')
-  //.then(response => response.json())
-  //.then(json => console.log(json))
+    fetch('https://api.sampleapis.com/coffee/hot')
+    .then(response => response.json())
+    .then(json => console.log(json))
 
-  // fetch('https://api.sampleapis.com/coffee/iced')
-  //.then(response => response.json())
-  //.then(json => console.log(json))
+     fetch('https://api.sampleapis.com/coffee/iced')
+    .then(response => response.json())
+    .then(json => console.log(json))
+
+
+
+document.getElementById("result").innerHTML = `Hello, ${2+2}`;
 
   let resultOne = document.querySelectorAll('.base')
 
