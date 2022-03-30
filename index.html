@@ -20,67 +20,65 @@
         <a class="active" href="#team"><li>Team</li></a>
         <a class="active" href="#contact"><li>Contact</li></a>
     </ul>
-
+        
     <!--what base-->
     <div class="base">
         <p>What do you want for the base of your drink?</p>
-        <button id="water">Water</button>
-        <button id="wholeMilk">Whole Milk</button>
-        <button id="soyMilk">Soy Milk</button>
-        <button id="coconutMilk">Coconut Milk</button>
-        <button id="almondMilk">Almond Milk</button>
+        <input type="checkbox" value="1" name="base">Water</input>
+        <input type="checkbox" value="2" name="base">Whole Milk</input>
+        <input type="checkbox" value="3" name="base">Soy Milk</input>
+        <input type="checkbox" value="4" name="base">Coconut Milk</input>
+        <input type="checkbox" value="5" name="base">Almond Milk</input>
     </div>
 
     <!--ingredients-->
-    <div class="ingredients">
+    <div class="ingredients" lable="ingredients">
         <p>What ingredients would you like in your drink?</p>
-        <button id="whiteSugar">White Sugar</button>
-        <button id="brownSugar">Brown Sugar</button>
-        <button id="stivia">Stivia</button>
-        <button id="butter">Butter</button>
-        <button id="honey">Honey</button>
-        <button id="whippedCream">Whipped Cream</button>
+        <input type="checkbox" value="6" name="ingredients">White Sugar</input>
+        <input type="checkbox" value="7" name="ingredients">Brown Sugar</input>
+        <input type="checkbox" value="8" name="ingredients">Stivia</input>
+        <input type="checkbox" value="9" name="ingredients">Butter</input>
+        <input type="checkbox" value="10" name="ingredients">Honey</input>
+        <input type="checkbox" value="11" name="ingredients">Whipped Cream</input>
     </div>
 
     <!--roast information-->
-    <div class="Roast">
+    <div class="roast">
         <p>WHat kind of roast do you enjoy?</p>
-        <button id="light">Light</button>
-        <button id="medium">Medium</button>
-        <button id="mediumDark">Medium/Dark</button>
-        <button id="dark">Dark</button>
+        <input type="checkbox" value="12" name="roast">Light</input>
+        <input type="checkbox" value="13" name="roast">Medium</input>
+        <input type="checkbox" value="14" name="roast">Medium/Dark</input>
+        <input type="checkbox" value="15" name="roast">Dark</input>
     </div>
 
     <!--flavor selector-->
-    <div class="Flavor">
+    <div class="flavor">
         <p>Favorite Flavor's</p>
         <div class="Flavorcontent">
-            <button id="bitter">Bitter</button>
-            <button id="salty">Salty</button>
-            <button id="sour">Sour</button>
-            <button id="sweet">Sweet</button>
-            <button id="umami">Umami</button>
-            <button id="spicy">Spicy</button>
-            <button id="minty">Minty</button>
+            <input type="checkbox" value="16" name="flavor">Bitter</input>
+            <input type="checkbox" value="17" name="flavor">Salty</input>
+            <input type="checkbox" value="18" name="flavor">Sour</input>
+            <input type="checkbox" value="19" name="flavor">Sweet</input>
+            <input type="checkbox" value="20" name="flavor">Umami</input>
+            <input type="checkbox" value="21" name="flavor">Spicy</input>
+            <input type="checkbox" value="22" name="flavor">Minty</input>
         </div>
     </div>
 
     <!--Temperature-->
-    <div class="Temp">
+    <div class="temp">
         <p>Do you enjoy hot or cold drinks?</p>
-            <button id="hot">Hot</button>
-            <button id="cold">Cold</button>
-            <button id="warm">Warm</button>
+            <input type="checkbox" value="23" name="temp">Hot</input>
+            <input type="checkbox" value="24" name="temp">Cold</input>
+            <input type="checkbox" value="25" name="temp">Warm</input>
     </div>
 <!--footer-->
     <p>Great you're done! Lets see what we came up with for you.</p>
-    <button>Press for your recommendations</button>
->>>>>>> Stashed changes
-    <footer>
-        <div class="uk-background-secondary uk-padding-small uk-position-bottom uk-text-center">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, ratione aliquid. Asperiores cupiditate ex modi, nam harum quisquam debitis adipisci nostrum distinctio illo ratione accusantium nemo. Ut quasi illum ipsa.
-        </div>
-    </footer>
+    <button id="submit"> Submit! </button>
+
+    <div id="results"> </div>
+
     <script src="script.js"></script>
+    
 </body>
 </html>
