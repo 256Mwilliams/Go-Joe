@@ -31,53 +31,55 @@
     <!--what base-->
     <div class="base">
         <p>What do you want for the base of your drink?</p>
-        <button>Water</button>
-        <button>Whole Milk</button>
-        <button>Soy Milk</button>
-        <button>Coconut Milk</button>
-        <button>Almond Milk</button>
+        <input type="checkbox" value="1" name="base">Water</input>
+        <input type="checkbox" value="2" name="base">Whole Milk</input>
+        <input type="checkbox" value="3" name="base">Soy Milk</input>
+        <input type="checkbox" value="4" name="base">Coconut Milk</input>
+        <input type="checkbox" value="5" name="base">Almond Milk</input>
+      
     </div>
 
     <!--ingredients-->
-    <div class="ingredients">
+    <div class="ingredients" label="ingredients">
         <p>What ingredients would you like in your drink?</p>
-        <button>White Sugar</button>
-        <button>Brown Sugar</button>
-        <button>Stivia</button>
-        <button>Butter</button>
-        <button>Honey</button>
-        <button>Whipped Cream</button>
+        <input type="checkbox" value="6" name="ingredients">White Sugar</input>
+        <input type="checkbox" value="7" name="ingredients">Brown Sugar</input>
+        <input type="checkbox" value="8" name="ingredients">Stivia</input>
+        <input type="checkbox" value="9" name="ingredients">Butter</input>
+        <input type="checkbox" value="10" name="ingredients">Honey</input>
+        <input type="checkbox" value="11" name="ingredients">WHipped Cream</input>
+       
     </div>
 
     <!--roast information-->
     <div class="roast">
         <p>What kind of roast do you enjoy?</p>
-        <button>Light</button>
-        <button>Medium</button>
-        <button>Medium/Dark</button>
-        <button>Dark</button>
+       <input type="checkbox" value="12" name="roast">Light</input>
+       <input type="checkbox" value="13" name="roast">Medium</input>
+       <input type="checkbox" value="14" name="roast">Medium/Dark</input>
+       <input type="checkbox" value="15" name="roast">Dark</input>
     </div>
 
     <!--flavor selector-->
     <div class="flavor">
         <p>Favorite Flavor's</p>
         <div class="Flavorcontent">
-            <button>Bitter</button>
-            <button>Salty</button>
-            <button>Sour</button>
-            <button>Sweet</button>
-            <button>Umami</button>
-            <button>Spicy</button>
-            <button>MInty</button>
+           <input type="checkbox" value="16" name="flavor">Bitter</input>
+           <input type="checkbox" value="17" name="flavor">Salty</input>
+           <input type="checkbox" value="18" name="flavor">Sour</input>
+           <input type="checkbox" value="19" name="flavor">Sweet</input>
+           <input type="checkbox" value="20" name="flavor">Umami</input>
+           <input type="checkbox" value="21" name="flavor">Spicy</input>
+           <input type="checkbox" value="22" name="flavor">Minty</input>
         </div>
     </div>
 
     <!--Temperature-->
     <div class="Temp">
         <p>Do you enjoy hot or cold drinks?</p>
-            <button>Hot</button>
-            <button>Cold</button>
-            <button>Warm</button>
+        <input type="checkbox" value="23" name="temp">Hot</input>
+        <input type="checkbox" value="24" name="temp">COld</input>
+        <input type="checkbox" value="25" name="temp">Warm</input>
     </div>
 
     <!--results-->
@@ -85,6 +87,8 @@
     <p>Great you're done! Lets see what we came up with for you.</p>
     <button>Press for your recommendations</button>
     </div>
+
+    <div id="result"></div>
     
     <!--footer-->
     <div class="footer">
@@ -95,5 +99,7 @@
             <div><a href="mailto:henry.velasco923@gmail.com">henry.velasco923@gmail.com</a></div>
         </ul>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
