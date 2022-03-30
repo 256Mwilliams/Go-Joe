@@ -27,11 +27,11 @@ body{
     background-image: url(https://images.unsplash.com/photo-1501747315-124a0eaca060?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -moz-background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -moz-background-size: contain;
 }
 
 .ingredients{
@@ -111,8 +111,16 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
 a{
     display: block;
     padding: 8px;
     background-color: #dddddd;
+}
+
+.results{
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
