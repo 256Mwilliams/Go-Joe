@@ -15,4 +15,4 @@ _________
 ## Contribution
 Made by the Go-Joe Team: Christian Lafferty, Henry Velasco, Michael Williams
 
-### ©️2022 Go-Joe
+### ©️2022 Go-Joe :)
